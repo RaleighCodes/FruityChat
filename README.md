@@ -21,5 +21,12 @@ You'll need to use different browsers. Because cookies.
 
 #### Note
 
+IMPORTANT: Due to cookie issues, bug will currently have only one user displayed when on the same desktop with different browsers connecting to localhost:3000.
+To fix, please change the nickname of both 'users' with /nick, and the updates will propagate and work as intended.
+...
+
+Please be forgiving. 
+
+
 Images are used without intention of infringement.
 It's a school project, please don't sue.
