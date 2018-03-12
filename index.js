@@ -69,7 +69,7 @@ io.on('connection', (socket) => {
     // https://stackoverflow.com/questions/16667329/special-character-validation
     socket.on('chat message', (txt) => {
         //check for emptry strings
-        if ((/\S/.test(txt)) && !(/[^a-zA-Z0-9\-\/]/.test(txt))){
+        if ((/\S/.test(txt)) && (/^[a-zA-Z0-9- ?]/.test(txt)) == true){
             msg = new Message(txt, user);
             console.log(msg.toString());
             io.emit('chat message', msg);
