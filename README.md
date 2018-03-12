@@ -3,7 +3,7 @@
 
 Please download this repo to get started!
 
-### Server Instructions
+### Start Server
 
 To start the server, navigate to this directory in the command line and type the following:
 
@@ -11,18 +11,15 @@ To start the server, navigate to this directory in the command line and type the
 
 "node start"
 
-### Using FruityChat
+### Start FuzzyChat
 
 To start, go to your browser and navigate to:
 
 "http://localhost:3000"
 
-Commands are shown in the command window upon successful connection.
+You'll need to use different browsers. Because cookies.
 
-You'll need to use different browsers for different users. Because cookies.
-
-#### Notes
-Images will adjust based on browser size.
+#### Note
 
 Images are used without intention of infringement.
 It's a school project, please don't sue.
