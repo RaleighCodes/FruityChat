@@ -11,7 +11,7 @@ To start the server, navigate to this directory in the command line and type the
 
 "node start"
 
-### Using FuzzyChat
+### Using FruityChat
 
 To start, go to your browser and navigate to:
 
